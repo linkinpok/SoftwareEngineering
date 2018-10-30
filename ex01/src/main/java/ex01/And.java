@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.Map;
+
 class And implements BooleanExpression {
 	private BooleanExpression _op1, _op2;
 	
@@ -20,4 +22,17 @@ class And implements BooleanExpression {
 	public String toPostfixString() {		
 		return _op1.toPostfixString() + " " + _op2.toPostfixString() + " &";
 	}
+
+	@Override
+	public boolean evaluate(Map<String, Boolean> map) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	/*public static void main(String[] args) {
+		String str = "a b ! c d & | &";
+		BooleanExpression expr = BooleanExpression.parseExpression(str);
+		String str2 = expr.toPostfixString();
+		System.out.println(str2);
+	}*/
 }

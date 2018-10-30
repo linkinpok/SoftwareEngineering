@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.Map;
+
 public class Not implements BooleanExpression {
 	private BooleanExpression _op;
 	
@@ -14,5 +16,11 @@ public class Not implements BooleanExpression {
 	@Override
 	public String toPostfixString() {		
 		return _op.toPostfixString() + " !";
+	}
+	
+	@Override
+	public boolean evaluate(Map<String, Boolean> map) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }

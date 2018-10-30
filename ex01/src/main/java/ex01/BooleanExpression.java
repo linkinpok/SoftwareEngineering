@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.List;
+import java.util.Map;
 import java.util.Stack;
 
 interface BooleanExpression {
@@ -33,7 +35,7 @@ interface BooleanExpression {
 				i++;
 				break;
 			default:
-				var = str.substring(i, str.indexOf(' '));
+				var = str.substring(i, str.indexOf(' ', i));
 				stack.push(new Var(var));
 				i += var.length();
 				break;
@@ -46,6 +48,20 @@ interface BooleanExpression {
 		return stack.pop();
 	}
 		
-	String toPostfixString();	
+	String toPostfixString();
+	
+	boolean evaluate(Map<String, Boolean> map);	
+	
+	default List<BooleanExpression> disjunctiveTerms(){
+		return null;		
+	}
+	
+	
+	public static void main(String[] args) {
+		String str = "a b ! c d & | &";
+		BooleanExpression expr = parseExpression(str);
+		String str2 = expr.toPostfixString();
+		System.out.println(str2);
+	}
 }
 

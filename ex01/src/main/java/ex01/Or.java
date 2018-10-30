@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.Map;
+
 class Or implements BooleanExpression {
 	private BooleanExpression _op1, _op2;
 	
@@ -19,5 +21,11 @@ class Or implements BooleanExpression {
 	@Override
 	public String toPostfixString() {		
 		return _op1.toPostfixString() + " " + _op2.toPostfixString() + " |";
+	}
+	
+	@Override
+	public boolean evaluate(Map<String, Boolean> map) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }
