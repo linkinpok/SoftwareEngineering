@@ -1,6 +1,6 @@
 package ex01;
 
-public class Var implements BooleanExpression {
+class Var implements BooleanExpression {
 	private String _var;
 
 	public Var(String var) {
@@ -8,6 +8,11 @@ public class Var implements BooleanExpression {
 	}
 
 	public String getName() {
+		return _var;
+	}
+	
+	@Override
+	public String toPostfixString() {		
 		return _var;
 	}
 }

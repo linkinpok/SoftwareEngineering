@@ -10,4 +10,9 @@ public class Not implements BooleanExpression {
 	public BooleanExpression getOp() {
 		return _op;
 	}
+	
+	@Override
+	public String toPostfixString() {		
+		return _op.toPostfixString() + " !";
+	}
 }

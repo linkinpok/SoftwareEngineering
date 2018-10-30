@@ -4,7 +4,7 @@ import java.util.Stack;
 
 interface BooleanExpression {
 
-	public static BooleanExpression parseExpression(String str) {
+	static BooleanExpression parseExpression(String str) {
 		Stack<BooleanExpression> stack = new Stack<>();
 		BooleanExpression op, op1, op2;
 		String var;
@@ -45,4 +45,7 @@ interface BooleanExpression {
 		}
 		return stack.pop();
 	}
+		
+	String toPostfixString();	
 }
+

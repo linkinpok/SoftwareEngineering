@@ -1,6 +1,6 @@
 package ex01;
 
-public class Or implements BooleanExpression {
+class Or implements BooleanExpression {
 	private BooleanExpression _op1, _op2;
 	
 	public Or(BooleanExpression op1, BooleanExpression op2) {
@@ -14,5 +14,10 @@ public class Or implements BooleanExpression {
 	
 	public BooleanExpression getRightOp() {
 		return _op2;
+	}
+	
+	@Override
+	public String toPostfixString() {		
+		return _op1.toPostfixString() + " " + _op2.toPostfixString() + " |";
 	}
 }

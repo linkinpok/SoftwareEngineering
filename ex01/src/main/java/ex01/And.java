@@ -1,11 +1,11 @@
 package ex01;
 
-public class And implements BooleanExpression {
+class And implements BooleanExpression {
 	private BooleanExpression _op1, _op2;
 	
 	public And(BooleanExpression op1, BooleanExpression op2) {
 		_op1 = op1;
-		_op2 = op2;
+		_op2 = op2; 
 	}
 	
 	public BooleanExpression getLeftOp() {
@@ -14,5 +14,10 @@ public class And implements BooleanExpression {
 	
 	public BooleanExpression getRightOp() {
 		return _op2;
+	}
+
+	@Override
+	public String toPostfixString() {		
+		return _op1.toPostfixString() + " " + _op2.toPostfixString() + " &";
 	}
 }
