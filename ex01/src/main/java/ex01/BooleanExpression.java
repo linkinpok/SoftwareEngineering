@@ -74,7 +74,7 @@ public interface BooleanExpression {
 	BooleanExpression toDNF();
 
 	/* TEST */
-	/*default String toStringDNF() {
+	default String toStringDNF() {
 		if (this instanceof And) {
 			return ((And) this).getLeftOp().toStringDNF() + " & " + ((And) this).getRightOp().toStringDNF();
 		} else if (this instanceof Or) {
@@ -98,5 +98,5 @@ public interface BooleanExpression {
 		BooleanExpression dnf = expr.toDNF();
 		String str3 = dnf.toStringDNF();
 		System.out.println("DNF     = " + str3);
-	}*/
+	}
 }

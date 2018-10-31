@@ -21,13 +21,13 @@ class Tests {
 	String str1_dnf = "a & !b | a & c & d";
 	String str2_dnf = "a & !d & e | b & !d & e | !c & !d & e";
 		
-	String toStringDNF(BooleanExpression expr) {
+	String toStringDNF2(BooleanExpression expr) {
 		if (expr instanceof And) {
-			return toStringDNF(((And) expr).getLeftOp()) + " & " + toStringDNF(((And) expr).getRightOp());
+			return toStringDNF2(((And) expr).getLeftOp()) + " & " + toStringDNF2(((And) expr).getRightOp());
 		} else if (expr instanceof Or) {
-			return toStringDNF(((Or) expr).getLeftOp()) + " | " + toStringDNF(((Or) expr).getRightOp());
+			return toStringDNF2(((Or) expr).getLeftOp()) + " | " + toStringDNF2(((Or) expr).getRightOp());
 		} else if (expr instanceof Not) {
-			return "!" + toStringDNF(((Not) expr).getOp());
+			return "!" + toStringDNF2(((Not) expr).getOp());
 		} else { // if (expr instanceof Var)
 			return ((Var) expr).getName();
 		}
@@ -45,8 +45,8 @@ class Tests {
 		expr1_dnf = expr1.toDNF();
 		expr2_dnf = expr2.toDNF();
 		
-		assertEquals(str1_dnf, toStringDNF(expr1_dnf));
-		assertEquals(str2_dnf, toStringDNF(expr2_dnf));
+		assertEquals(str1_dnf, toStringDNF2(expr1_dnf));
+		assertEquals(str2_dnf, toStringDNF2(expr2_dnf));
 	}
 
 }
