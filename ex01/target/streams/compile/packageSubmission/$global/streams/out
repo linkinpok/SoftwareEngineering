@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\target\scala-2.12\ex01_2.12-1.0-submission.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex01\Or.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\src\main\java\ex01\Or.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex01\Not.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\src\main\java\ex01\Not.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex01\Var.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\src\main\java\ex01\Var.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex01\And.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\src\main\java\ex01\And.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex01\BooleanExpression.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\src\main\java\ex01\BooleanExpression.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\test\java\test01\Tests.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex01\src\test\java\test01\Tests.java[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
