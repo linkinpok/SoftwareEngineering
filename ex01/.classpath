@@ -1,41 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-  <classpathentry kind="src" path="src\main\java"/>
-  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\org.scalatest\scalatest_2.12\srcs\scalatest_2.12-3.0.5-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.5.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scalatest\scalatest_2.12\docs\scalatest_2.12-3.0.5-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.5-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scalactic\scalactic_2.12\docs\scalactic_2.12-3.0.5-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.6-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\docs\scala-xml_2.12-1.0.6-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\com.novocode\junit-interface\srcs\junit-interface-0.11-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\com.novocode\junit-interface\jars\junit-interface-0.11.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\com.novocode\junit-interface\docs\junit-interface-0.11-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\junit\junit\srcs\junit-4.11-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\junit\junit\jars\junit-4.11.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\junit\junit\docs\junit-4.11-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\org.hamcrest\hamcrest-core\srcs\hamcrest-core-1.3-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.3.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.hamcrest\hamcrest-core\docs\hamcrest-core-1.3-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="C:\Users\hle\.ivy2\cache\org.scala-sbt\test-interface\srcs\test-interface-1.0-sources.jar" kind="lib" path="C:\Users\hle\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scala-sbt\test-interface\docs\test-interface-1.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-  <classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.5.jar" sourcepath="C:/Users/hle/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scalatest\scalatest_2.12\docs\scalatest_2.12-3.0.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar" sourcepath="C:/Users/hle/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scalactic\scalactic_2.12\docs\scalactic_2.12-3.0.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar" sourcepath="C:/Users/hle/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\docs\scala-xml_2.12-1.0.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.11.jar" sourcepath="C:/Users/hle/.ivy2/cache/com.novocode/junit-interface/srcs/junit-interface-0.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\com.novocode\junit-interface\docs\junit-interface-0.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/junit/junit/jars/junit-4.11.jar" sourcepath="C:/Users/hle/.ivy2/cache/junit/junit/srcs/junit-4.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\junit\junit\docs\junit-4.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar" sourcepath="C:/Users/hle/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.hamcrest\hamcrest-core\docs\hamcrest-core-1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hle/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar" sourcepath="C:/Users/hle/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\hle\.ivy2\cache\org.scala-sbt\test-interface\docs\test-interface-1.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>

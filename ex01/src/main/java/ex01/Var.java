@@ -1,8 +1,10 @@
 package ex01;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
-class Var implements BooleanExpression {
+public final class Var implements BooleanExpression {
 	private String _var;
 
 	public Var(String var) {
@@ -12,15 +14,26 @@ class Var implements BooleanExpression {
 	public String getName() {
 		return _var;
 	}
-	
+
 	@Override
-	public String toPostfixString() {		
+	public String toPostfixString() {
 		return _var;
 	}
-	
+
 	@Override
 	public boolean evaluate(Map<String, Boolean> map) {
-		// TODO Auto-generated method stub
-		return false;
+		boolean b = map.get(_var);
+		return b;
+	}
+
+	@Override
+	public List<BooleanExpression> disjunctiveTerms() {
+		List<BooleanExpression> list = Arrays.asList(this);
+		return list;
+	}
+
+	@Override
+	public BooleanExpression toDNF() {
+		return this;
 	}
 }
