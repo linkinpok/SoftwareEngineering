@@ -28,8 +28,8 @@ public final class And implements BooleanExpression {
 
 	@Override
 	public boolean evaluate(Map<String, Boolean> map) {
-		boolean b1 = map.get(_op1.toPostfixString());
-		boolean b2 = map.get(_op2.toPostfixString());
+		boolean b1 = _op1.evaluate(map);
+		boolean b2 = _op2.evaluate(map);
 		return b1 & b2;
 	}
 

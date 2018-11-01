@@ -22,7 +22,7 @@ public final class Not implements BooleanExpression {
 
 	@Override
 	public boolean evaluate(Map<String, Boolean> map) {
-		boolean b = map.get(_op.toPostfixString());
+		boolean b = _op.evaluate(map);
 		return !b;
 	}
 

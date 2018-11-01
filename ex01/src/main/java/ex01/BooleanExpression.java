@@ -73,7 +73,9 @@ public interface BooleanExpression {
 
 	BooleanExpression toDNF();
 
-	/* TEST */
+	
+	
+	/******* TEST *******/
 	default String toStringDNF() {
 		if (this instanceof And) {
 			return ((And) this).getLeftOp().toStringDNF() + " & " + ((And) this).getRightOp().toStringDNF();
