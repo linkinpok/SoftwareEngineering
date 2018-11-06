@@ -87,9 +87,11 @@ public interface BooleanExpression {
 
     // TODO Problem 3a) Implementieren Sie die folgende Methode in And/Or/Not/Var
     String toPrefixString();
+    // 20 minutes for implementation + test
 
     // TODO Problem 3b) Implementieren Sie die folgende Methode in And/Or/Not/Var
     String toInfixString();
+    // 35 minutes for implementation + test
 
     boolean evaluate(Map<String, Boolean> argumentMap);
 
@@ -116,4 +118,45 @@ public interface BooleanExpression {
     default And asAnd() { throw new UnsupportedOperationException(); }
     default Or asOr() { throw new UnsupportedOperationException(); }
     default Not asNot() { throw new UnsupportedOperationException(); }
+
+	
+    
+    /******* TEST *******/
+	default String toStringDNF() {
+		if (this instanceof And) {
+			return ((And) this).getLeftOp().toStringDNF() + " & " + ((And) this).getRightOp().toStringDNF();
+		} else if (this instanceof Or) {
+			return ((Or) this).getLeftOp().toStringDNF() + " | " + ((Or) this).getRightOp().toStringDNF();
+		} else if (this instanceof Not) {
+			return "!" + ((Not) this).getOp().toStringDNF();
+		} else { // if (this instanceof Var)
+			return ((Var) this).getName();
+		}
+	}
+
+	public static void main(String[] args) {
+
+		String str, prefix_expect, infix_expect;
+		/*
+		str = "a b ! c d & | &";
+		prefix_expect = "& a | ! b & c d";
+		infix_expect = "a & (!b | c & d)";
+		*/
+		str = "a b | ! c & d | ! e &";
+		prefix_expect = "& ! | & ! | a b c d e";
+		infix_expect = "!(!(a | b) & c | d) & e";
+
+		BooleanExpression expr = parseExpression(str);
+		String postfix = expr.toPostfixString();
+		System.out.println("postfix = " + postfix);
+		String prefix = expr.toPrefixString();
+		System.out.println("prefix  = " + prefix);
+		String infix = expr.toInfixString();
+		System.out.println("infix   = " + infix);
+		/*
+		BooleanExpression dnf = expr.toDNF();
+		String str3 = dnf.toStringDNF();
+		System.out.println("DNF     = " + str3);
+		*/
+	}
 }

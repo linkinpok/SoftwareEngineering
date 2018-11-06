@@ -78,4 +78,16 @@ public class And implements BooleanExpression {
     public And asAnd() {
         return this;
     }
+
+	@Override
+	public String toPrefixString() {
+		return "& " + leftOp.toPrefixString() + " " + rightOp.toPrefixString();
+	}
+
+	@Override
+	public String toInfixString() {
+		String leftStr = leftOp.isOr() ? "(" + leftOp.toInfixString() + ")" : leftOp.toInfixString();
+		String rightStr = rightOp.isOr() ? "(" + rightOp.toInfixString() + ")" : rightOp.toInfixString();
+		return leftStr + " & " + rightStr;
+	}
 }

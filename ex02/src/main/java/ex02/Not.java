@@ -58,4 +58,15 @@ public class Not implements BooleanExpression {
     public Not asNot() {
         return this;
     }
+
+	@Override
+	public String toPrefixString() {
+		return "! " + op.toPrefixString();
+	}
+
+	@Override
+	public String toInfixString() {
+		String opStr = (op.isAnd() || op.isOr()) ? "(" + op.toInfixString() + ")" : op.toInfixString();
+		return "!" + opStr;
+	}
 }

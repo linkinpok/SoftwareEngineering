@@ -32,4 +32,14 @@ public class Var implements BooleanExpression {
     public boolean isVar() {
         return true;
     }
+
+	@Override
+	public String toPrefixString() {
+		return name;
+	}
+
+	@Override
+	public String toInfixString() {
+		return name;
+	}
 }

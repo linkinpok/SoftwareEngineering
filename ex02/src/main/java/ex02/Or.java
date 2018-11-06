@@ -55,4 +55,14 @@ public class Or implements BooleanExpression {
     public Or asOr() {
         return this;
     }
+
+	@Override
+	public String toPrefixString() {
+		return "| " + leftOp.toPrefixString() + " " + rightOp.toPrefixString();
+	}
+
+	@Override
+	public String toInfixString() {
+		return leftOp.toInfixString() + " | " + rightOp.toInfixString();
+	}
 }
