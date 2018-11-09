@@ -1,8 +1,1 @@
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Java sources to C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 1.671448857 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.127205487 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 1.807020532 s[0m
-[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

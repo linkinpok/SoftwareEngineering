@@ -1,15 +1,1 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\ex02_2.12-1.0.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ex02\Var.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes\ex02\Var.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ex02\BooleanExpression.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes\ex02\BooleanExpression.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ex02\And.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes\ex02\And.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ex02[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes\ex02[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ex02\Not.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes\ex02\Not.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ex02\Or.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\classes\ex02\Or.class[0m
-[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\hle\Source\GitHub\SoftwareEngineering\ex02\target\scala-2.12\ex02_2.12-1.0.jar[0m
