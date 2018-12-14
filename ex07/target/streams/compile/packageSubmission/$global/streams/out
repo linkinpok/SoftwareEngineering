@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\hle\Source\GitHub\SoftwareEngineering\ex07\target\scala-2.12\ex07_2.12-1.0-submission.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	solution\ex07_submit.pdf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  solution\ex07_submit.pdf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex07\Navigation.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex07\src\main\java\ex07\Navigation.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex07\Route.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex07\src\main\java\ex07\Route.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex07\Way.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex07\src\main\java\ex07\Way.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex07\RouteException.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex07\src\main\java\ex07\RouteException.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	src\main\java\ex07\NavigationService.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hle\Source\GitHub\SoftwareEngineering\ex07\src\main\java\ex07\NavigationService.java[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
