@@ -46,13 +46,17 @@ public class Navigation implements Serializable {
             result += NavigationService.forWay(w);
             lastWay = w;
         }
-        return result;
-    }
+        /* merge two methods */
+    //    return result;
+    //}
 
-    public void printRoute(StringBuilder sb) {
-        sb.append(toString());
-        sb.append('\n');
-        sb.append("Route length: " + getLength());
+    //public void printRoute(StringBuilder sb) {
+    //    sb.append(result);
+    //    sb.append('\n');
+    //    sb.append("Route length: " + getLength());  
+        System.out.println(result);
+        System.out.println("Route length: " + getLength());
+        return result;
     }
 
     public Route importRoute(String routeFileName) {
