@@ -32,8 +32,8 @@ spotbugs {
 jar {
 	// Source: https://docs.gradle.org/current/userguide/java_plugin.html#sub:manifest
 	manifest {
-		attributes("Implementation-Title" : "gradleJar",
-					"Main-Class" : "de.tud.cs.se.flashcards.Main")
+		attributes ('Implementation-Title' : 'flashcardsJar',
+		'Main-Class' : 'de.tud.cs.se.flashcards.Main')
 	}
 }
 
@@ -52,4 +52,4 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'flashcards.App'
+mainClassName = 'de.tud.cs.se.flashcards.Main'
